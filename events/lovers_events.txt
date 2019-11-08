@@ -2440,6 +2440,9 @@ character_event = {
 			prisoner = no
 			NOT = { trait = incapable }
 			NOT = { is_inaccessible_trigger = yes }
+			NOT = {
+				age = 40
+			}
 		}
 		NOT = { is_inaccessible_trigger = yes }
 	}
